@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro.</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style>
+        body{
+            background: #201b2c;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="box">
+       
+        <form action="">
+            <fieldset>
+                <legend><b>Cadastro</b></legend>
+        
+                <div class="inputBox">
+                    <label for="nome" class="inputLabel">Nome Completo</label>
+                    <input type="text" name="nome" class=inputUser required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="email" class="labelInput" >E-mail</label>
+                    <input type="email" name="email" class=inputUser required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="password" class="labelInput" >Senha</label>
+                    <input type="password" name="password" class=inputUser required>
+                </div>
+                <br>
+                <div class="inputBox">
+                    <label for="setor"  class="labelInput" >Setor</label>
+                    <select name="setor" id="setor">
+                        <option name="null">Selecione um setor</option>
+                        <option name="cobranca">Cobrança</option>
+                        <option name="comercial">Comercial</option>
+                        <option name="Financeiro">Financeiro</option>
+                        <option name="gestao">Gestão</option>
+                        <option name="NOC">NOC (Network Operations Center)</option>
+                        <option name="suporte">Suporte Técnico</option>
+                    </select>
+                </div>
+                <br>
+                    <div class="sendButton">
+                    <input type="submit" name="submit" id="submit">
+                    </div>
+                </div>
+            </fieldset>
+        </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
